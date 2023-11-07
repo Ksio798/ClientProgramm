@@ -1,0 +1,16 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Client" Height="450" Width="800">
+    <Grid Background="#FF212121">
+        <TextBox Background="Black" Margin="0,0,0,291" TextAlignment="Center" FontSize="50" x:Name="text" Foreground="#FF00FF27" ></TextBox>
+        <Button Background="#FF00FF27"  x:Name="button1" Margin="10,156,535,156" Click="button1_Click">Set</Button>
+        <TextBlock TextAlignment="Center" LineHeight="12" FontSize="16" Margin="265,156,265,135" TextWrapping="Wrap" Foreground="#FF00FF27">Для подключения к пк по локальной сети, необходимо ввести имя устройсква и нажать Set. По умолчанию стоит имя текущего устройсва. </TextBlock>
+        <Button Background="#FF00FF27"  x:Name="button2" Margin="535,156,10,156" Click="button2_Click">Clear</Button>
+        <Button Background="#FF00FF27" Margin="-5,332,0,0" Width="805" Height="NaN" x:Name="button3"  HorizontalAlignment="Left">Send</Button>
+    </Grid>
+</Window>
